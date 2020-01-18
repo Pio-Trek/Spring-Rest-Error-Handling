@@ -16,7 +16,9 @@ AuthorNotFoundException.java
 
     }
 
-We can override various of different constructors from the parent class. In this example, I'm using construction that accepts a message as a String parameter.
+We can override various of different constructors from the parent class.
+
+In this example, I'm using constructor that accepts a message as a String parameter.
 
 Spring will generate a default JSON error response like below:
 
@@ -34,9 +36,7 @@ Spring will generate a default JSON error response like below:
 
     }
 
-To provide more customization for the output we need to set up a POJO class that will model a message and a class that will handle all exceptions with **@ControllerAdvice** which is a kind of 
-
-an interceptor for exceptions.
+To provide more customization for the output we need to set up a POJO class that will model a message and a class that will handle all exceptions with **@ControllerAdvice** which is a kind of an interceptor for exceptions.
 
 CustomErrorRespone.java
 
@@ -96,7 +96,7 @@ The final output:
 
     }
 
-For some reasons, we wish to have a hardcoded error message. We can use a **reason** property in **@ResponseStatus** annotation.
+If for some reasons, we wish to have a hard coded error message. We can use a **reason** property in **@ResponseStatus** annotation.
 
 FetchAllInternalException.java
 

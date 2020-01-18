@@ -9,7 +9,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 import java.time.LocalDateTime;
 
-//https://mkyong.com/spring-boot/spring-rest-error-handling-example/
 @ControllerAdvice
 @Slf4j
 public class CustomGlobalExceptionHandler extends ResponseEntityExceptionHandler {

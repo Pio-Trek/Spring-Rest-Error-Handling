@@ -1,4 +1,4 @@
-# Spring-Rest-Error-Handling
+# Spring Rest Error Handling
 
 To create a custom error handling exception, we need to create a class that will inherit from **RuntimeException.**
 

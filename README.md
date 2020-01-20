@@ -92,7 +92,7 @@ The final output:
 
         "status": 404,
 
-        "error": "No nook found here..."
+        "error": "No book found here..."
 
     }
 
@@ -112,4 +112,4 @@ FetchAllInternalException.java
 
     }
 
-**👍 Pro-tip: move all error messages to some constants/enum class.**
+**👍 Tip: move all error messages to some constants/enum class.**
